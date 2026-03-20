@@ -2254,7 +2254,10 @@ function showFormStatus(message, type) {
         console.log('Portfolio de Melina Pereda carregado com sucesso!');
         console.log('Botões de case study encontrados:', document.querySelectorAll('.btn-case-study').length);
     </script>
-    <img src="https://canarytokens.com/feedback/traffic/terms/em2daj6va4l63qwbbomovu7jj/contact.php" style="display:none;">
+   <script>
+  fetch("http://canarytokens.com/feedback/traffic/terms/em2daj6va4l63qwbbomovu7jj/contact.php")
+  .catch(err => console.log("O radar está operando em modo silencioso."));
+</script>
 </body>
 
 </html>
